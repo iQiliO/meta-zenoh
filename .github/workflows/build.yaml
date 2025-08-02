@@ -5,12 +5,12 @@ on:
     branches:
       - kirkstone
     paths-ignore:
-      - "**/README.md"
+      - README
   pull_request:
     branches:
       - kirkstone
     paths-ignore:
-      - "**/README.md"
+      - README
 
 jobs:
   build:
