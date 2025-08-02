@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - kirkstone
+    paths-ignore:
+      - "**/README.md"
   pull_request:
     branches:
       - kirkstone
+    paths-ignore:
+      - "**/README.md"
 
 jobs:
   build:
