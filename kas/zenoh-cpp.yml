@@ -1,0 +1,9 @@
+header:
+  version: 18
+  includes:
+    - poky-zenoh.yml
+
+target:
+  - zenoh-cpp
+  - zenoh-c
+
